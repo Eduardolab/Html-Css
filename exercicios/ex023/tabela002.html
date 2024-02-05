@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: rgb(53, 53, 53);
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:  rgb(53, 53, 53);;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+            /* 2n-1 */
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+            /* 2n */
+        }
+
+        td.numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR,TD,TH
+
+            TBODY
+                TR,TD,TH
+
+            TFOOT
+                TR,TD,TH
+    -->
+
+    <table>
+        <caption>Populão de Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</th>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 169 023</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">31 932 312</td>
+            </tr>
+            <tr>
+                <td>São Paulo</th>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 169 023</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">31 932 312</td>
+            </tr>
+            <tr>
+                <td>São Paulo</th>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 169 023</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">31 932 312</td>
+            </tr>
+            <tr>
+                <td>São Paulo</th>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 169 023</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">31 932 312</td>
+            </tr>            <tr>
+                <td>São Paulo</th>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 169 023</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">31 932 312</td>
+            </tr>            <tr>
+                <td>São Paulo</th>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 169 023</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">31 932 312</td>
+            </tr>            <tr>
+                <td>São Paulo</th>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 169 023</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">31 932 312</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numero"><strong>98 239 321</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquam minima soluta vitae quaerat atque, sed ut eaque, optio repudiandae eius modi nihil consectetur odit asperiores nobis porro doloremque repellat nesciunt nemo. Animi, consectetur. Quibusdam sit rem accusantium omnis veritatis placeat laudantium, quia quam magni hic inventore esse neque harum natus quasi dolorum commodi dolor minus officia aut doloremque! Sed, blanditiis inventore temporibus commodi deserunt labore quod est hic ab iusto explicabo quae facere doloribus aut necessitatibus molestiae. Tempora modi, culpa optio ab perspiciatis provident debitis. Animi dolorum doloremque hic? Magni odit eius corporis expedita voluptatem dignissimos velit pariatur sit neque tenetur nesciunt incidunt facere distinctio ea rerum fugit ducimus et aliquam, repellendus in hic enim quam. Eveniet, consequatur quibusdam iusto sint libero nostrum quas soluta distinctio placeat rerum dignissimos aliquid eius iste ipsam nulla dolorum praesentium dicta ad est. Aliquam nulla quod dolorem impedit praesentium. Velit recusandae laboriosam iure facilis officiis. Id nobis voluptates illo et ipsum veniam error quis tempore! Velit, vel harum, sunt, consequuntur dolorem quaerat dolor alias vitae molestiae reiciendis quasi. Quo, sit! Voluptatibus veritatis minus eaque sed ad molestiae, iusto sit, adipisci accusantium, maxime tenetur cumque? Assumenda distinctio nemo at maiores minima sapiente explicabo aspernatur obcaecati laboriosam incidunt numquam nulla sit voluptate doloribus earum voluptatem laudantium repudiandae qui, hic eveniet recusandae! Tempora, suscipit doloremque earum eius dolor accusamus molestiae itaque nemo perspiciatis, ea aliquam neque, illo enim totam repudiandae facilis reprehenderit quasi magni! Dolores veniam, a atque totam ex commodi architecto modi maxime quibusdam exercitationem ipsa ad vero laudantium voluptates quo, odit amet qui id ratione repudiandae debitis! Voluptas aspernatur ipsa illo officiis hic possimus culpa reiciendis repudiandae quod necessitatibus quidem officia molestiae error, incidunt sequi, dolorum in facere corrupti magni rerum et? Deserunt libero, sequi delectus earum praesentium eveniet eius assumenda deleniti doloribus, placeat enim expedita repellat harum cupiditate iste perspiciatis nisi adipisci obcaecati. Autem, maiores dolor. Omnis ducimus suscipit quisquam fugiat, asperiores similique aliquid odit commodi aut quas natus? Explicabo voluptatibus, sit repellat reiciendis expedita repellendus eveniet consequatur ab quis amet, provident asperiores voluptatem unde molestias nobis. Perferendis quibusdam fuga ea earum accusantium nihil culpa molestias. Id nihil quidem quis culpa, ullam sunt voluptatem adipisci repellat accusantium nemo nobis, deserunt iste, impedit dolor repudiandae sequi labore esse nisi error. Esse magnam dolores beatae, architecto minus in ratione quisquam repellat ullam non earum alias amet, animi necessitatibus. Fuga quo corrupti officia alias exercitationem tempora nemo unde iusto soluta repudiandae voluptate, est nihil velit quae quidem. Vero quo ea rerum suscipit architecto delectus quas nam at alias voluptatibus, praesentium, illum adipisci eligendi porro? Ut, nesciunt maxime labore facere numquam voluptatem accusamus illum harum sunt repellat repudiandae, quod inventore deleniti? Nemo beatae laudantium fugit a alias animi quidem nulla ab repudiandae id sapiente aliquid praesentium nesciunt accusantium nisi rem maiores non, voluptate est accusamus recusandae. Expedita eos, officiis voluptatem alias vero aperiam nulla nesciunt sit et voluptas quod doloribus facilis earum eligendi, doloremque mollitia, ab ipsum sapiente delectus quisquam adipisci? Dolorem laudantium reiciendis ut aut. Molestias dolor nam vero voluptatibus nesciunt doloremque aperiam! A nam autem harum! Ipsa tempore, debitis quos quibusdam quasi ipsum amet similique dolor laboriosam eos? Repudiandae sed dolorem unde ratione labore adipisci, ullam itaque porro doloribus esse sint perferendis odit, aperiam facilis quae suscipit illo est nisi nihil recusandae, veritatis quidem! Nihil quos nostrum laboriosam dolor obcaecati inventore alias quas, et rem delectus eveniet distinctio consequuntur facere quasi debitis provident soluta assumenda aut mollitia voluptas! Neque mollitia quam natus magni rem iusto dignissimos eligendi sed. Tenetur ipsa quod fugit. Ipsam qui earum maxime sequi consequatur excepturi adipisci deleniti aliquid officia beatae debitis ex accusantium molestias, ea dolores repudiandae itaque animi doloribus! Eius placeat asperiores odio nemo ducimus corporis, esse minus praesentium ad quas voluptatem itaque facere vero, ullam ratione dolores! Ullam inventore iure, laboriosam repellat perspiciatis ipsum, hic tempore fugiat tenetur facere eius nobis incidunt et minus earum laborum accusamus nihil ducimus iste doloribus suscipit. Expedita repellat laboriosam error fugiat officia odio atque doloribus quos omnis, tempora distinctio quis ullam reiciendis, ducimus esse cupiditate modi porro necessitatibus ipsum dolorem! Saepe culpa deleniti, possimus fugiat minima pariatur illo blanditiis dolorum officiis magni, nesciunt ipsa alias eos molestiae nihil quod illum fugit in consequuntur vel non vero aliquam nobis veritatis. Delectus, obcaecati porro, aperiam assumenda ex modi quo veniam expedita laudantium ipsa distinctio natus sunt quaerat voluptatum deleniti pariatur soluta, fugiat optio facilis incidunt libero? Similique ullam, illo pariatur alias, placeat, eligendi dolorum ab fugiat saepe et deleniti reiciendis dolore repellendus minima distinctio vitae aut tenetur voluptate soluta quisquam quasi labore. Corporis id illo odit minus odio doloribus architecto possimus dolore! Quas totam itaque dicta amet provident velit nihil culpa quisquam sit dolor corporis impedit pariatur aspernatur voluptatum, est blanditiis quae suscipit incidunt cum labore neque illo magnam? Aliquid dolore libero eveniet sapiente, quos eum praesentium voluptatum delectus nam in consequuntur asperiores rerum. Sed, quasi nam suscipit asperiores est cupiditate officiis natus illo inventore ut neque nobis sunt blanditiis voluptas fugit atque ex perferendis voluptatum? Provident quam sequi facere, voluptas eius culpa, eligendi voluptate dolorum iure odio debitis maiores consectetur nam officia corporis itaque necessitatibus, nostrum alias similique odit assumenda fugiat impedit! Neque doloribus culpa quos corporis magni fuga repudiandae quisquam reiciendis blanditiis, laboriosam animi! Autem expedita obcaecati rem iste quibusdam, debitis odio totam eos, neque ducimus aliquam temporibus praesentium soluta. Sapiente ad eligendi quaerat eum, quidem aliquam facere dolorem voluptatibus excepturi voluptatum eveniet! Corporis sed placeat fugit nihil, praesentium perspiciatis quod magnam est eos facilis, soluta itaque enim recusandae totam aliquam cumque qui, aliquid natus odit beatae numquam? Praesentium voluptatum dignissimos reprehenderit itaque, obcaecati laudantium soluta laborum error commodi ipsum mollitia cum illum cumque. Reprehenderit voluptatibus recusandae ex placeat? Soluta molestias dolorem accusantium quis, suscipit natus asperiores earum, nemo sit exercitationem laudantium unde voluptas totam aspernatur error obcaecati vel veritatis. Rerum nemo cumque, nam earum dignissimos ipsum iure expedita quos perspiciatis suscipit libero exercitationem aspernatur impedit nobis tempore. Quisquam labore numquam incidunt ipsam maxime suscipit cumque, distinctio rem saepe accusantium recusandae dignissimos eligendi?</p>
+</body>
+</html>
